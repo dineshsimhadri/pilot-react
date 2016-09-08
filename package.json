@@ -1,0 +1,22 @@
+{
+  "name": "react-pilot",
+  "version": "0.0.1",
+  "description": "A blueprint for your universal react apps.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "demo": "babel-node example/example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "dependencies": {
+    "express": "^4.13.4",
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
